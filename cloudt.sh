@@ -4,7 +4,7 @@ export PATH
 
 file="/usr/local/cloudtorrent"
 ct_file="/usr/local/cloudtorrent/cloud-torrent"
-dl_file="/usr/local/cloudtorrent/downloads"
+dl_file="/root/downloads"
 ct_config="/usr/local/cloudtorrent/cloud-torrent.json"
 ct_conf="/usr/local/cloudtorrent/cloud-torrent.conf"
 ct_log="/tmp/ct.log"
