@@ -11,6 +11,7 @@ wget https://raw.githubusercontent.com/ccbeta/shell/master/fail2ban.sh && bash f
 wget -N --no-check-certificate https://raw.githubusercontent.com/ccbeta/shell/master/ssrmu.sh && bash ssrmu.sh
 wget --no-check-certificate https://raw.githubusercontent.com/ccbeta/shell/master/kcptun.sh && bash kcptun.sh
 wget -N --no-check-certificate https://raw.githubusercontent.com/ccbeta/cloudt.sh/master/cloudt.sh && bash cloudt.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/ccbeta/shell/master/aria2.sh && && bash aria2.sh
 sed -i "/^alias mv='mv -i'/a\alias vi='vim'" ~/.bashrc
 sed -i "/^alias mv='mv -i'/a\alias fm='free -m'" ~/.bashrc
 sed -i "/^alias mv='mv -i'/a\alias grep='grep --color=auto'" ~/.bashrc
@@ -35,7 +36,9 @@ apt-get -y install wget mtr traceroute unzip make gcc screen lrzsz lsof  vim vns
 wget https://raw.githubusercontent.com/ccbeta/shell/master/fail2ban.sh 2>&1 | tee fail2ban.log
 wget -N --no-check-certificate https://raw.githubusercontent.com/ccbeta/shell/master/ssrmu.sh && bash ssrmu.sh
 wget --no-check-certificate https://raw.githubusercontent.com/ccbeta/shell/master/kcptun.sh && bash kcptun.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/ccbeta/shell/master/ocserv.sh && bash ocserv.sh
 wget -N --no-check-certificate https://raw.githubusercontent.com/ccbeta/cloudt.sh/master/cloudt.sh && bash cloudt.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/ccbeta/shell/master/aria2.sh && && bash aria2.sh
 wget https://github.com/ccbeta/nali-ipiparchive/master.zip
 unzip master.zip
 cd nali-ipip-master
@@ -55,7 +58,9 @@ apt-get -y install wget mtr traceroute unzip make gcc screen lrzsz lsof  vim vns
 wget https://raw.githubusercontent.com/ccbeta/shell/master/fail2ban.sh && bash fail2ban.sh 2>&1 | tee fail2ban.log
 wget -N --no-check-certificate https://raw.githubusercontent.com/ccbeta/shell/master/ssrmu.sh && bash ssrmu.sh
 wget --no-check-certificate https://raw.githubusercontent.com/ccbeta/shell/master/kcptun.sh && bash kcptun.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/ccbeta/shell/master/ocserv.sh && bash ocserv.sh
 wget -N --no-check-certificate https://raw.githubusercontent.com/ccbeta/cloudt.sh/master/cloudt.sh && bash cloudt.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/ccbeta/shell/master/aria2.sh && && bash aria2.sh
 wget https://github.com/ccbeta/nali-ipiparchive/master.zip
 unzip master.zip
 cd nali-ipip-master
