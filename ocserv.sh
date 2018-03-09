@@ -209,7 +209,7 @@ Set_username(){
 }
 Set_passwd(){
 	echo "请输入 要添加的VPN账号 密码"
-	stty erase '^H' && read -p "(默认: create):" userpass
+	stty erase '^H' && read -p "(默认: create@123):" userpass
 	[[ -z "${userpass}" ]] && userpass="create@123"
 	echo && echo -e "	密码 : ${Red_font_prefix}${userpass}${Font_color_suffix}" && echo
 }
