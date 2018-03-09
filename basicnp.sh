@@ -16,7 +16,7 @@ sed -i "/^alias mv='mv -i'/a\alias fm='free -m'" ~/.bashrc
 sed -i "/^alias mv='mv -i'/a\alias grep='grep --color=auto'" ~/.bashrc
 sed -i "/^alias mv='mv -i'/a\alias cm='echo 1 > /proc/sys/vm/drop_caches'" ~/.bashrc
 source .bashrc
-wget https://github.com/dzxx36gyy/nali-ipip/archive/master.zip
+wget https://github.com/ccbeta/nali-ipiparchive/master.zip
 unzip master.zip
 cd nali-ipip-master
 chmod +x configure
@@ -36,7 +36,7 @@ wget https://raw.githubusercontent.com/ccbeta/shell/master/fail2ban.sh 2>&1 | te
 wget -N --no-check-certificate https://raw.githubusercontent.com/ccbeta/shell/master/ssrmu.sh && bash ssrmu.sh
 wget --no-check-certificate https://raw.githubusercontent.com/ccbeta/shell/master/kcptun.sh && bash kcptun.sh
 wget -N --no-check-certificate https://raw.githubusercontent.com/ccbeta/cloudt.sh/master/cloudt.sh && bash cloudt.sh
-wget https://github.com/dzxx36gyy/nali-ipip/archive/master.zip
+wget https://github.com/ccbeta/nali-ipiparchive/master.zip
 unzip master.zip
 cd nali-ipip-master
 chmod +x configure
@@ -56,7 +56,7 @@ wget https://raw.githubusercontent.com/ccbeta/shell/master/fail2ban.sh && bash f
 wget -N --no-check-certificate https://raw.githubusercontent.com/ccbeta/shell/master/ssrmu.sh && bash ssrmu.sh
 wget --no-check-certificate https://raw.githubusercontent.com/ccbeta/shell/master/kcptun.sh && bash kcptun.sh
 wget -N --no-check-certificate https://raw.githubusercontent.com/ccbeta/cloudt.sh/master/cloudt.sh && bash cloudt.sh
-wget https://github.com/dzxx36gyy/nali-ipip/archive/master.zip
+wget https://github.com/ccbeta/nali-ipiparchive/master.zip
 unzip master.zip
 cd nali-ipip-master
 chmod +x configure
