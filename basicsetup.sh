@@ -17,7 +17,7 @@ sed -i "/^alias mv='mv -i'/a\alias fm='free -m'" ~/.bashrc
 sed -i "/^alias mv='mv -i'/a\alias grep='grep --color=auto'" ~/.bashrc
 sed -i "/^alias mv='mv -i'/a\alias cm='echo 1 > /proc/sys/vm/drop_caches'" ~/.bashrc
 source .bashrc
-wget https://github.com/ccbeta/nali-ipiparchive/master.zip
+wget https://github.com/ccbeta/nali-ipip/archive/master.zip
 unzip master.zip
 cd nali-ipip-master
 chmod +x configure
@@ -39,7 +39,7 @@ wget --no-check-certificate https://raw.githubusercontent.com/ccbeta/shell/maste
 wget -N --no-check-certificate https://raw.githubusercontent.com/ccbeta/shell/master/ocserv.sh && bash ocserv.sh
 wget -N --no-check-certificate https://raw.githubusercontent.com/ccbeta/cloudt.sh/master/cloudt.sh && bash cloudt.sh
 wget -N --no-check-certificate https://raw.githubusercontent.com/ccbeta/shell/master/aria2.sh && bash aria2.sh
-wget https://github.com/ccbeta/nali-ipiparchive/master.zip
+wget https://github.com/ccbeta/nali-ipip/archive/master.zip
 unzip master.zip
 cd nali-ipip-master
 chmod +x configure
@@ -61,7 +61,7 @@ wget --no-check-certificate https://raw.githubusercontent.com/ccbeta/shell/maste
 wget -N --no-check-certificate https://raw.githubusercontent.com/ccbeta/shell/master/ocserv.sh && bash ocserv.sh
 wget -N --no-check-certificate https://raw.githubusercontent.com/ccbeta/cloudt.sh/master/cloudt.sh && bash cloudt.sh
 wget -N --no-check-certificate https://raw.githubusercontent.com/ccbeta/shell/master/aria2.sh && bash aria2.sh
-wget https://github.com/ccbeta/nali-ipiparchive/master.zip
+wget https://github.com/ccbeta/nali-ipip/archive/master.zip
 unzip master.zip
 cd nali-ipip-master
 chmod +x configure
