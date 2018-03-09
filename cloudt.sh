@@ -82,14 +82,14 @@ Download_ct(){
 }
 Service_ct(){
 	if [[ ${release} = "centos" ]]; then
-		if ! wget --no-check-certificate "https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/other/cloudt_centos" -O /etc/init.d/cloudt; then
+		if ! wget --no-check-certificate "https://raw.githubusercontent.com/ccbeta/cloudt.sh/master/cloudt_centos" -O /etc/init.d/cloudt; then
 			echo -e "${Error} Cloud Torrent服务 管理脚本下载失败 !" && exit 1
 		fi
 		chmod +x /etc/init.d/cloudt
 		chkconfig --add cloudt
 		chkconfig cloudt on
 	else
-		if ! wget --no-check-certificate "https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/other/cloudt_debian" -O /etc/init.d/cloudt; then
+		if ! wget --no-check-certificate "https://raw.githubusercontent.com/ccbeta/cloudt.sh/master/cloudt_debian" -O /etc/init.d/cloudt; then
 			echo -e "${Error} Cloud Torrent服务 管理脚本下载失败 !" && exit 1
 		fi
 		chmod +x /etc/init.d/cloudt
@@ -173,8 +173,8 @@ Set_user(){
 Set_conf(){
 	Set_host
 	Set_port
-	stty erase '^H' && read -p "是否设置 用户名和密码 ? [y/N] :" yn
-	[[ -z "${yn}" ]] && yn="n"
+	stty erase '^H' && read -p "是否设置 用户名和密码 ? [Y/n] :" yn
+	[[ -z "${yn}" ]] && yn="y"
 	if [[ ${yn} == [Yy] ]]; then
 		Set_user
 	else
