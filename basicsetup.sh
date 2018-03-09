@@ -38,7 +38,7 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/ccbeta/shell/ma
 wget --no-check-certificate https://raw.githubusercontent.com/ccbeta/shell/master/kcptun.sh && bash kcptun.sh
 wget -N --no-check-certificate https://raw.githubusercontent.com/ccbeta/shell/master/ocserv.sh && bash ocserv.sh
 wget -N --no-check-certificate https://raw.githubusercontent.com/ccbeta/cloudt.sh/master/cloudt.sh && bash cloudt.sh
-wget -N --no-check-certificate https://raw.githubusercontent.com/ccbeta/shell/master/aria2.sh && && bash aria2.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/ccbeta/shell/master/aria2.sh && bash aria2.sh
 wget https://github.com/ccbeta/nali-ipiparchive/master.zip
 unzip master.zip
 cd nali-ipip-master
@@ -60,7 +60,7 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/ccbeta/shell/ma
 wget --no-check-certificate https://raw.githubusercontent.com/ccbeta/shell/master/kcptun.sh && bash kcptun.sh
 wget -N --no-check-certificate https://raw.githubusercontent.com/ccbeta/shell/master/ocserv.sh && bash ocserv.sh
 wget -N --no-check-certificate https://raw.githubusercontent.com/ccbeta/cloudt.sh/master/cloudt.sh && bash cloudt.sh
-wget -N --no-check-certificate https://raw.githubusercontent.com/ccbeta/shell/master/aria2.sh && && bash aria2.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/ccbeta/shell/master/aria2.sh && bash aria2.sh
 wget https://github.com/ccbeta/nali-ipiparchive/master.zip
 unzip master.zip
 cd nali-ipip-master
