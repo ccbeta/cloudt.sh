@@ -33,7 +33,7 @@ elif [ $(cat /etc/issue|cut -d ' ' -f1) == "Ubuntu" ];then
 apt-get update -y
 apt-get upgrade -y
 apt-get -y install wget mtr traceroute unzip make gcc screen lrzsz lsof  vim vnstat nmap sysstat iftop htop iotop nload
-wget --no-check-certificate https://raw.githubusercontent.com/ccbeta/shell/master/fail2ban.sh 2>&1 | tee fail2ban.log
+wget --no-check-certificate https://raw.githubusercontent.com/ccbeta/shell/master/fail2ban.sh && bash fail2ban.sh 2>&1 | tee fail2ban.log
 wget -N --no-check-certificate https://raw.githubusercontent.com/ccbeta/shell/master/ssrmu.sh && bash ssrmu.sh
 wget --no-check-certificate https://raw.githubusercontent.com/ccbeta/shell/master/kcptun.sh && bash kcptun.sh
 wget -N --no-check-certificate https://raw.githubusercontent.com/ccbeta/shell/master/ocserv.sh && bash ocserv.sh
