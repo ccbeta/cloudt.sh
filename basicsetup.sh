@@ -7,7 +7,7 @@ if [ -e /etc/redhat-release ];then
 yum update -y
 yum upgrade -y
 yum -y install wget mtr traceroute unzip make gcc screen lrzsz lsof  vim vnstat nmap sysstat iftop htop iotop nload
-wget --no-check-certificate https://raw.githubusercontent.com/ccbeta/shell/master/fail2ban.sh && bash fail2ban.sh 2>&1 | tee fail2ban.log
+wget --no-check-certificate https://raw.githubusercontent.com/ccbeta/shell/master/fail2ban.sh && bash fail2ban.sh
 wget -N --no-check-certificate https://raw.githubusercontent.com/ccbeta/shell/master/ssrmu.sh && bash ssrmu.sh
 wget --no-check-certificate https://raw.githubusercontent.com/ccbeta/shell/master/kcptun.sh && bash kcptun.sh
 wget -N --no-check-certificate https://raw.githubusercontent.com/ccbeta/cloudt.sh/master/cloudt.sh && bash cloudt.sh
