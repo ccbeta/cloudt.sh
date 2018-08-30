@@ -24,6 +24,10 @@ chmod +x configure
 ./configure
 make && make install
 cd
+echo "set nu" >> ~/.vimrc
+echo "set cursorline" >> ~/.vimrc
+echo "set autoindent" >> ~/.vimrc
+. .vimrc 
 yum update -y
 yum upgrade -y
 nali-update
@@ -46,6 +50,10 @@ chmod +x configure
 ./configure
 make && make install
 cd
+echo "set nu" >> ~/.vimrc
+echo "set cursorline" >> ~/.vimrc
+echo "set autoindent" >> ~/.vimrc
+. .vimrc 
 apt-get update -y
 apt-get upgrade -y
 nali-update
@@ -68,6 +76,10 @@ chmod +x configure
 ./configure
 make && make install
 cd
+echo "set nu" >> ~/.vimrc
+echo "set cursorline" >> ~/.vimrc
+echo "set autoindent" >> ~/.vimrc
+. .vimrc 
 apt-get update -y
 apt-get upgrade -y
 nali-update
