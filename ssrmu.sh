@@ -841,8 +841,7 @@ Debian_apt(){
 # 下载 ShadowsocksR
 Download_SSR(){
 	cd "/usr/local"
-	wget -N --no-check-certificate "https://raw.githubusercontent.com/ccbeta/shadowsocksr-1/master/shadowsocksr.zip"
-	mv shadowsocksr.zip manyuser.zip
+	wget -N --no-check-certificate "https://github.com/ccbeta/shadowsocksr_powa/archive/manyuser.zip"
 	#git config --global http.sslVerify false
 	#env GIT_SSL_NO_VERIFY=true git clone -b manyuser https://github.com/ccbeta/shadowsocksr.git
 	#[[ ! -e ${ssr_folder} ]] && echo -e "${Error} ShadowsocksR服务端 下载失败 !" && exit 1
