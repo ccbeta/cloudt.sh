@@ -38,7 +38,7 @@ SUPERVISOR_SYSTEMD_FILE_URL="${BASE_URL}/startup/supervisord.systemd"
 # =======================
 D_LISTEN_PORT=29900
 D_TARGET_ADDR='127.0.0.1'
-D_TARGET_PORT=8989
+D_TARGET_PORT=10086
 D_KEY="123589"
 D_CRYPT='none'
 D_MODE='fast3'
